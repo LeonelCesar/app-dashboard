@@ -1,1 +1,0 @@
-Filtro de dadas
