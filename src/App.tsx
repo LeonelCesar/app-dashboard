@@ -5,7 +5,7 @@ import SettingsPges from "./pages/SettingsPage";
 import Users from "./pages/Users";
 import DashboardLayout from "./components/DashboarLayout";
 import DashPageTasks from "./pages/DashPageTasks";
-
+import LoginPage from './pages/LoginPage';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Route path="/settings" element={<SettingsPges />} />
         <Route path="/users" element={<Users />} />
       </Route>
+      <Route path="/login" element={<LoginPage />} />
     </Routes>
   );
 }
