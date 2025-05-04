@@ -7,7 +7,7 @@ interface User {
 }
  
  function Users() {
-  const [users, setUsers] = useState<User[]>([
+  const [users] = useState<User[]>([
     { id: 1, name: "Leonel César", email: "leonelcesar62@gmail.com" },
     { id: 2, name: "Eloa Maria César", email: "eloamariacesar123@email.com" },
     { id: 3, name: "Lanira Reis Neves", email: "laniraneves@gmail.com"},
